@@ -1,0 +1,45 @@
+# conmmond line arguments
+import sys
+def add(n1, n2):
+    A = n1 + n2
+    return A
+def  sub(n1, n2):
+    S = n1 - n2
+    return S
+def mul(n1, n2):
+    M = n1 * n2
+    return M
+def div(n1, n2):
+    D = n1 / n2
+    return D  
+ # addition     
+n1 = float(sys.argv[1])
+operation = sys.argv[2]
+n2 = float(sys.argv[3])
+if operation == "add":
+    output = add(n1, n2)
+    print(output)
+
+# subtraction
+n1 = float(sys.argv[1])
+operation = sys.argv[2]
+n2 = float(sys.argv[3])
+if operation == "sub":
+    output = sub(n1, n2)
+    print(output)
+# multiplications
+n1 = float(sys.argv[1])
+operation = sys.argv[2]
+n2 = float(sys.argv[3])
+if operation == "mul":
+    output = mul(n1, n2)
+    print(output)
+
+# Division
+n1 = float(sys.argv[1])
+operation = sys.argv[2]
+n2 = float(sys.argv[3])
+if operation == "div":
+    output = div(n1, n2)
+    print(output)
+
