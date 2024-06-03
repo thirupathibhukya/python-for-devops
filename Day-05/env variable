@@ -1,0 +1,6 @@
+# env  variables
+import os
+print(os.getenv("apitoken"))
+
+$ export apitolen="thirutoken"
+$ pyhon dem.py
