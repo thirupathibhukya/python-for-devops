@@ -6,4 +6,17 @@ if type == "t2.micro":
 elif type == "t2.mediuum":
     print("it will charge 4 dollers")
 else:
+    print("prefer proper instances")       
+
+
+
+# example
+
+import sys
+type = sys.argv[1]
+if type == "t2.micro":
+    print("it will charge 2 dollerrs")
+elif type == "t2.mediuum":
+    print("it will charge 4 dollers)
+else:
     print("prefer proper instances")          
