@@ -1,0 +1,9 @@
+import sys
+type = sys.argv[1]
+type2 = sys.argv[2]
+if type == "t2.micro":
+    print("it will charge 2 dollerrs")
+elif type == "t2.mediuum":
+    print("it will charge 4 dollers")
+else:
+    print("prefer proper instances")          
